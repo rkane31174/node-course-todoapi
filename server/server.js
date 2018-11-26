@@ -44,3 +44,5 @@ app.listen(3000, () => {
 // }, (e) => {
 //     console.log("Didn\'t work: ", e);
 // });
+
+module.exports = {app};
