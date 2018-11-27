@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79b88d64-e0ae-49e9-a6b7-f80690236938" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/playground/hashing.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/middleware/authenticate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/hashing.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/hashing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
@@ -21,10 +21,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="-1437">
               <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground/hashing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+            <state relative-caret-position="637">
+              <caret line="73" column="15" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -138,10 +138,10 @@
         <option value="$PROJECT_DIR$/server/db/mongoose.js" />
         <option value="$PROJECT_DIR$/server/tests/server.test.js" />
         <option value="$PROJECT_DIR$/server/config/config.js" />
-        <option value="$PROJECT_DIR$/playground/hashing.js" />
-        <option value="$PROJECT_DIR$/server/models/user.js" />
         <option value="$PROJECT_DIR$/server/middleware/authenticate.js" />
         <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/playground/hashing.js" />
+        <option value="$PROJECT_DIR$/server/models/user.js" />
       </list>
     </option>
   </component>
@@ -180,6 +180,12 @@
               <item name="node-todo-api" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-todo-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-todo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node-todo-api" type="b2602c69:ProjectViewProjectNode" />
@@ -227,12 +233,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543248401386</updated>
-      <workItem from="1543248402750" duration="38390000" />
+      <workItem from="1543248402750" duration="40140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38390000" />
+    <option name="totallyTimeSpent" value="40140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -350,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/tests/server.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1981">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -371,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playground/hashing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -385,10 +377,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/user.js">
+    <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+        <state relative-caret-position="-1437">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tests/server.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1981">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -399,10 +398,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
+    <entry file="file://$PROJECT_DIR$/playground/hashing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="73" column="15" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
         </state>
       </provider>
     </entry>
