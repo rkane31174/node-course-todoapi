@@ -38,7 +38,6 @@ UserSchema.methods.toJSON = function () {
     var userObject = user.toObject();
     return _.pick(userObject, ['_id', 'email']);
 };
-
 UserSchema.methods.generateAuthToken = function () {
     var user = this;
     var access = 'auth';
@@ -48,6 +47,7 @@ UserSchema.methods.generateAuthToken = function () {
         return token;
     });
 };
+
 UserSchema.statics.findByToken = function (token) {
     var User = this;
     var decoded;
@@ -61,6 +61,22 @@ UserSchema.statics.findByToken = function (token) {
         _id: decoded._id,
         'tokens.token': token,
         'tokens.access': 'auth'
+    });
+};
+UserSchema.statics.findByCredentials = function (email, password) {
+    var user = this;
+    return User.findOne({email}).then((user) => {
+        if(!user) {
+            return Promise.reject();
+        }
+        return new Promise((resolve, reject) => {
+            bcrypt.compare(password, user.password, (err, res) => {
+                if(res) {
+                    resolve(user);
+                }
+                reject();
+            });
+        });
     });
 };
 
